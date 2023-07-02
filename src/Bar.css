@@ -1,0 +1,36 @@
+.bar{
+  background-color: #F8F8F8;
+  margin-right: 0.14rem;
+  margin-left: 0.14rem;
+  /* display: flex; */
+}
+.sorted{
+  background-color: var(--primary);
+}
+
+.comparing{
+  background-color: var(--blue);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  transition: margin-left 0.2s, margin-right 0.2s;
+}
+
+.swapping{
+  background-color: var(--yellow);
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.left-sorted-group{
+  background-color: var(--red-dark);
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  transition: margin-left 0.2s, margin-right 0.2s;
+}
+
+.right-sorted-group{
+  background-color: var(--yellow);
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  transition: margin-left 0.2s, margin-right 0.2s;
+}
