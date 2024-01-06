@@ -1,0 +1,40 @@
+.bars-colors-labels{
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.bar-color-label{
+  display: inline-flex;
+  align-items: center;
+}
+.bar-color-label > div{
+  margin-right: 0.5rem;
+  width: 15px;
+  height: 15px;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: black;
+  display: inline-block;
+}
+
+.comparing-color-box{
+  background-color: var(--blue);
+}
+
+.sorted-color-box{
+  background-color: var(--primary);
+}
+
+.swapping-color-box, .right-sorted-color-box{
+  background-color: var(--yellow);
+}
+
+.left-sorted-color-box{
+  background-color: var(--red-dark);
+}
+
+.less-than-pivot-color-box{
+  background-color: var(--purple);
+}
